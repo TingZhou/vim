@@ -33,6 +33,7 @@ Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-surround'
 Bundle 'vim-scripts/AutoClose'
 Bundle 'vim-scripts/nginx.vim'
+Bundle 'vim-scripts/taglist.vim'
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
