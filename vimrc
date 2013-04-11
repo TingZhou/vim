@@ -538,3 +538,13 @@ augroup END
 if filereadable(expand("~/.vimrc_local"))
     source ~/.vimrc_local
 endif
+
+" use exuberant ctags, see more detail in taglist.vim
+let Tlist_Ctags_Cmd = '/Users/ting/bin/ctags'
+let Tlist_Show_One_File = 1
+let Tlist_Exit_OnlyWindow = 1
+let Tlist_File_Fold_Auto_Close = 1
+let Tlist_Auto_Update = 1
+nmap <C-l> :vert Tlist <CR>
+
+
